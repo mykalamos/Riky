@@ -1,0 +1,29 @@
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: beige;
+  border: 0.2vw solid black;
+  border-radius: 25px;
+}
+
+.menu li {
+  float: left;
+  border-left: 0.1vw solid black;		
+  }
+
+.menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menuempty {
+	padding: 14px 16px;
+}
+.menu li a:hover {
+  background-color: lightyellow;
+}
