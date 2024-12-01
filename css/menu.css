@@ -10,8 +10,8 @@
 
 .menu li {
   float: left;
-  border-left: 0.1vw solid var(--primary-color);		
-  }
+  border-left: 0.1vw solid var(--primary-color);
+}
 
 .menu li a {
   display: block;

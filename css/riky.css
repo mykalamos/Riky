@@ -11,10 +11,11 @@ body {
 }
 
 blockquote {
-	border:var(--primary-color) solid 0.25vw;
+	border:var(--primary-color) solid 0.15vw;
 	border-radius: 25px;
 	padding: 1vw;
-	width: 80%;
+	/*width: 80%;*/
+	display: inline-block;
 }
 
 hr {
