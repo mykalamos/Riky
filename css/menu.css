@@ -3,19 +3,19 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: beige;
-  border: 0.2vw solid black;
+  background-color: var(--background-color);
+  border: 0.2vw solid var(--primary-color);
   border-radius: 25px;
 }
 
 .menu li {
   float: left;
-  border-left: 0.1vw solid black;		
+  border-left: 0.1vw solid var(--primary-color);		
   }
 
 .menu li a {
   display: block;
-  color: black;
+  color: var(--primary-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,5 +25,6 @@
 	padding: 14px 16px;
 }
 .menu li a:hover {
-  background-color: lightyellow;
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }
