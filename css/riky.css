@@ -37,6 +37,7 @@ h3 {
 	flex-wrap: wrap;
 	background-color: var(--text-background-color);
 	border-radius: 25px;
+	border: 1px solid var(--primary-color);
 }
 
 .text-block-paragraph{
