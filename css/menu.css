@@ -19,12 +19,13 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color:  #333333;
+  background-color:  var(--text-background-color);
 }
 
 .menuempty {
 	padding: 14px 16px;
 }
+
 .menu li a:hover {
   background-color: var(--primary-color);
   color: var(--background-color);
