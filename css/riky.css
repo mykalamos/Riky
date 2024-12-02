@@ -32,7 +32,11 @@ h3 {
 }
 
 .text-block{
-	display: flex; flex-direction: row; flex-wrap: wrap; background-color: var(--text-background-color);
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: var(--text-background-color);
+	border-radius: 25px;
 }
 
 .text-block-paragraph{
