@@ -9,7 +9,7 @@ body {
 }
 
 blockquote {
-	border:var(--primary-color) solid 0.15vw;
+	border: var(--primary-color) solid 0.15vw;
 	border-radius: 25px;
 	padding: 1vw;
 	display: inline-block;
@@ -20,19 +20,19 @@ hr {
 }
 
 h1 {
-	text-align:center;
+	text-align: center;
 }
 
 h2 {
-	text-align:center;
+	text-align: center;
 }
 
 h3 {
-	text-align:center;
+	text-align: center;
 }
 
-.text-block{
-	display: flex; 
+.text-block {
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	background-color: var(--text-background-color);
@@ -40,12 +40,12 @@ h3 {
 	border: 1px solid var(--primary-color);
 }
 
-.text-block-paragraph{
+.text-block-paragraph {
 	flex: 0 0 48%;
-	padding: 8px; 
+	padding: 8px;
 }
 
-.text-block{
+.text-block {
 	padding: 8px;
 }
 
@@ -55,5 +55,10 @@ h3 {
 
 .footer {
 	font-size: 1.5vw;
-	text-align:center;
+	text-align: center;
+}
+
+.footer-image {
+	height: 2.5vw;
+	width: 3.5vh;
 }
