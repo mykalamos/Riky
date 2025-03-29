@@ -1,11 +1,12 @@
 body {
-	font-family: Didot, Garamond, Georgia, arial;
+	font-family: Georgia, Arial;
 	font-size: 1.8vw;
 	padding: 3vw;
 	border: var(--primary-color) solid 0.4vw;
 	border-radius: 25px;
 	background-color: var(--background-color);
 	color: var(--primary-color);
+	color: beige;
 }
 
 blockquote {
@@ -13,6 +14,7 @@ blockquote {
 	border-radius: 25px;
 	padding: 1vw;
 	display: inline-block;
+	font-size: 1.4vw;
 }
 
 hr {
@@ -59,6 +61,6 @@ h3 {
 }
 
 .footer-image {
-	height: 2.5vw;
-	width: 3.5vh;
+	height: auto;
+	width: 10%;
 }
