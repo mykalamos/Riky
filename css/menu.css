@@ -4,13 +4,13 @@
   padding: 0;
   overflow: hidden;
   background-color: var(--background-color);
-  border: 0.2vw solid var(--primary-color);
+  border: 0.2vw solid var(--secondary-color);
   border-radius: 25px;
 }
 
 .menu li {
   float: left;
-  border-left: 0.1vw solid var(--primary-color);
+  border-left: 0.1vw solid var(--secondary-color);
 }
 
 .menu li a {

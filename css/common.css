@@ -1,5 +1,6 @@
 :root {
     --primary-color: beige; /* Defining the variable */
+    --secondary-color: lightgreen; /* Defining the variable */
     --background-color: #121212;
     --text-background-color: #333333;
 }
