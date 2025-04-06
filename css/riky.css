@@ -93,6 +93,8 @@ h3 {
     overflow: hidden;
 	width: 20vw;
 	height: "auto";
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 .circle-image img {
