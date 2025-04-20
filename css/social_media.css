@@ -1,0 +1,24 @@
+.twitter {
+    width: 2.5vw;
+    height: "auto";
+}
+
+.youtube {
+    width: 3.6vw;
+    height: "auto";
+}
+
+.instagram {
+    width: 3.0vw;
+    height: "auto";
+}
+
+.bluesky
+{
+    width: 3.0vw;
+    height: "auto";
+}
+
+.email {
+    font-size: 4.0vw;
+}
