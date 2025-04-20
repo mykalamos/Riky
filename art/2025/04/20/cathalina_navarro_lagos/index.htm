@@ -14,6 +14,25 @@
 		:root {
 			--secondary-color: goldenrod;
 		}
+		.painting {
+			float:left; 
+			width: 45vw; 
+			height: auto; 
+			margin: 0 2.5vw 2.7vh 0;
+		}
+		/* Extra small devices (phones) */
+		@media (max-width: 575px) { 
+			.painting { 
+				width: 85vw; 
+			}
+		}
+
+		/* Small devices (landscape phones) */
+		@media (min-width: 576px) and (max-width: 767px) { 
+			.painting { 
+				width: 85vw; 
+			}
+		}
 	</style>
 </head>
 
@@ -36,7 +55,7 @@
     <div>
 		<div>
         	<img src="../../../../img/autoretrato_2023_cathalina_navarro lagos.jpg" 
-				alt="Autoretrato (2023)" style="float:left; width: 45vw; height: auto; margin: 0 2.5vw 2.7vh 0;" />
+				alt="Autoretrato (2023)" class="painting" />
 		</div>
         <div style="text-align: justify;">
             <p>The small square dimensions, with only the face and neck on show, create an immediate sense of intimacy. The viewer is drawn inexorably into the eyes of the sitter. Edged with darker paint the eyes nose and mouth feel almost etched into the canvas.</p>
