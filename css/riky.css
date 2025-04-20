@@ -2,22 +2,65 @@ body {
 	font-family: Georgia, Arial;
 	font-size: 1.8vw;
 	padding: 3vw;
-	/* border: var(--secondary-color) solid 0.4vw; */
 	border-radius: 25px;
 	background-color: var(--background-color);
 	color: var(--primary-color);
 }
+
+.header {
+	font-size: 4.6vw;
+	text-align: center;
+}
+
+.header-2 {
+	font-size: 3.2vw;
+	text-align: center;
+}
+
+.header-3 {
+	font-size: 2.8vw;
+	text-align: center;
+}
+
 /* Extra small devices (phones) */
 @media (max-width: 575px) { 
 	body{
+		font-size: 3.6vw;
+	}
+	.header {
+		font-size: 4.6vw;
+		text-align: center;
+	}
+	
+	.header-2 {
+		font-size: 3.6vw;
+		text-align: center;
+	}
+	
+	.header-3 {
 		font-size: 2.8vw;
+		text-align: center;
 	}
  }
 
 /* Small devices (landscape phones) */
 @media (min-width: 576px) and (max-width: 767px) { 
 	body{
+		font-size: 3.2vw;
+	}
+	.header {
+		font-size: 4.6vw;
+		text-align: center;
+	}
+	
+	.header-2 {
+		font-size: 3.2vw;
+		text-align: center;
+	}
+	
+	.header-3 {
 		font-size: 2.6vw;
+		text-align: center;
 	}
  }
 
@@ -87,20 +130,6 @@ h3 {
 	width: 5vw;
 }
 
-.header {
-	font-size: 3.6vw;
-	text-align: center;
-}
-
-.header-2 {
-	font-size: 2.8vw;
-	text-align: center;
-}
-
-.header-3 {
-	font-size: 2.2vw;
-	text-align: center;
-}
 
 .header-image {
 	width: 13vw;
