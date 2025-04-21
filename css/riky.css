@@ -145,8 +145,16 @@ h3 {
     overflow: hidden;
 	width: 20vw;
 	height: "auto";
-	margin-left: auto;
-  	margin-right: auto;
+	margin-left: 2vw;
+  	margin-right: 2vw; 
+}
+
+@media (max-width: 767px) { 
+	.circle-image {
+		width: 45vw;
+		margin-left: 5vw;
+		margin-right: 5vw; 
+	}
 }
 
 .circle-image img {
