@@ -6,6 +6,13 @@
   background-color: var(--background-color);
   border: 0.2vw solid var(--secondary-color);
   border-radius: 25px;
+  font-size: 1.8vw;
+}
+
+@media (max-width: 767px) { 
+  .menu ul {
+    font-size: 2.3vw;
+  }
 }
 
 .menu li {
