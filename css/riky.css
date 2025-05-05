@@ -169,3 +169,9 @@ h3 {
     object-fit: cover;
     border-radius: 95%;
 }
+
+@media (max-width: 767px) { 
+	.circle-image img {
+		border-radius: 80%;
+	}
+}
