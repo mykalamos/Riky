@@ -2,16 +2,26 @@
     width: 6.5vw;
     height: auto;
 }
+
+@media (max-width: 767px) { 
+    .thumbnail{
+        width: 8.0vw;
+    }   
+}
+
 .table-container {
-    overflow-x: auto;
+    /* overflow-x: auto; */
     margin: 1em 0;
 }
 
 table {
     border-collapse: collapse;
-    width: 100%;
-    min-width: 600px; /* forces scroll on narrow screens */
+    width: 90%;
+    /* min-width: 600px; */
+     /* forces scroll on narrow screens */
     border: 1px solid var(--secondary-color);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 caption {
