@@ -22,3 +22,25 @@
 .email {
     font-size: 4.0vw;
 }
+
+@media(max-width: 767px) {  
+    .twitter {
+        width: 3.8vw;
+    }
+    
+    .youtube {
+        width: 5.4vw;
+    }
+    
+    .instagram {
+        width: 4.6vw;
+    }
+    
+    .bluesky
+    {
+        width: 4.0vw;
+    }
+    .email {
+        font-size: 6.5vw;
+    }  
+}
