@@ -1,0 +1,56 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    /* body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    } */
+
+    .carousel-container {
+        display: flex;
+        align-items: center;
+        max-width: 55%;
+        width: 55%;
+    }
+
+    .chevron {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        padding: 0 15px;
+        color: var(--secondary-color);
+        transition: color 0.2s;
+    }
+
+    .chevron:disabled {
+        visibility: hidden;
+    }
+
+    .chevron:hover:not(:disabled) {
+        color: var(--secondary-color);
+    }
+
+    .carousel {
+        overflow: hidden;
+        /* width: 50%; */
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .carousel-images {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-images img {
+        /* width: 100%; */
+        flex-shrink: 0;
+        display: block;
+    }
