@@ -76,7 +76,7 @@ body {
 blockquote {
 	border: var(--secondary-color) solid 0.15vw;
 	border-radius: 25px;
-	padding: 1vw;
+	padding: 1.5vw;
 	display: inline-block;
 	font-size: 1.4vw;
 }
