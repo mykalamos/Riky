@@ -18,6 +18,7 @@
 .menu li {
   float: left;
   border-left: 0.1vw solid var(--secondary-color);
+    box-shadow: 5px 5px 5px rgba(138, 66, 66, 0.1);
 }
 
 .menu li a {
@@ -28,6 +29,7 @@
   text-decoration: none;
   background-color:  var(--text-background-color);
   transition: background-color 0.3s, color 0.3s;
+  box-shadow: 5px 5px 5px rgba(138, 66, 66, 0.1);
 }
 
 .menuempty {
@@ -37,4 +39,5 @@
 .menu li a:hover {
   background-color: var(--primary-color);
   color: var(--background-color);
+   box-shadow: 5px 5px 5px rgba(138, 66, 66, 0.1);
 }
