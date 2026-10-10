@@ -33,19 +33,19 @@ body {
 /* Extra small devices (phones) */
 @media (max-width: 575px) {
   body {
-    font-size: 3.6vw;
+    font-size: 3.8vw;
   }
 
   .header {
-    font-size: 5.9vw;
+    font-size: 6.2vw;
   }
 
   .header-2 {
-    font-size: 3.9vw;
+    font-size: 4.2vw;
   }
 
   .header-3 {
-    font-size: 3.2vw;
+    font-size: 3.5vw;
   }
 }
 
